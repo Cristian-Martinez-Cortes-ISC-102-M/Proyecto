@@ -237,7 +237,7 @@
 
 <section>
 
-    <h1>About this page</h1>
+    <h1>About this pageHOLA ESTA ES UNA PRUEBA DE COMMIT DESDE OTRA MAQUINA POR MEDIO DE GIT HUB</h1>
 
     <p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
 
