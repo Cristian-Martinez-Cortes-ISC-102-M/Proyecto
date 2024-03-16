@@ -1032,22 +1032,4 @@ CALL sp_add_municipio('Santiago', 19);
 CALL sp_add_municipio('Vallecillo', 19);
 CALL sp_add_municipio('Villaldama', 19);
 
-
-
-
 select * from tbl_cat_municipio;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
