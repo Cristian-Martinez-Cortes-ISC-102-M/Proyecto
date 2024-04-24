@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UBAM</title>
+    <link rel="icon" href="icon.png" type="image/x-icon">
     <style>
         * {
             font-family: 'Poppins', sans-serif;
@@ -80,12 +81,12 @@
         }
 
         .input-group input {
-            width: 100%;
+            width: 92%;
             border-radius: 0.375rem;
             border: 1px solid rgba(55, 65, 81, 1);
             outline: 0;
             background-color: rgba(17, 24, 39, 1);
-            padding: 1rem 0rem;
+            padding: 1rem 1rem;
             color: rgba(243, 244, 246, 1);
         }
 
@@ -177,7 +178,7 @@
 <body class="container">
     <div class="form-container">
         <p class="title">Iniciar Sesión</p>
-        <form class="form">
+        <form class="form" action="/home" method="post">
             <div class="input-group">
                 <label for="username">Usuario</label>
                 <input type="text" name="username" id="username" placeholder="">
